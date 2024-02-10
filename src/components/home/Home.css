@@ -1,0 +1,132 @@
+.home {
+  display: flex;
+}
+
+.hero {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.para1 {
+  margin-left: 5px;
+}
+
+.courses-container {
+  margin: 10px;
+}
+
+.courses-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.course-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.course-thumbnail {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.course-details h2 {
+  margin-top: 0;
+}
+
+.view-more-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.view-more-link:hover {
+  text-decoration: underline;
+}
+
+.course-enroll-view {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.enroll-button {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+}
+
+.enrollment-form-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.enrollment-form-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  width: 500px;
+}
+
+.enrollment-form-container h2 {
+  margin-top: 0;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure it's above other content */
+}
+
+.enrollment-form-container {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1001; /* Above the overlay */
+  max-width: 500px; /* Adjust based on your preference */
+  width: 100%;
+}

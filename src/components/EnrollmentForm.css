@@ -1,0 +1,63 @@
+.enrollment-confirmation {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.enrollment-confirmation h2 {
+  color: #333;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.enrollment-confirmation p {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.enrollment-confirmation img {
+  display: block;
+  margin: 10px auto;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom progress bar styles */
+.progress-bar-container {
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  padding: 3px;
+  margin: 20px 0;
+}
+
+.progress-bar {
+  height: 20px;
+  border-radius: 15px;
+  background-color: #4caf50;
+  width: 0; /* Initial width should be 0, and you can update it based on progress */
+  text-align: center;
+  line-height: 20px;
+  color: white;
+}
+
+/* Adding a bit of responsiveness */
+@media (max-width: 768px) {
+  .enrollment-confirmation {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .enrollment-confirmation h2 {
+    font-size: 20px;
+  }
+
+  .enrollment-confirmation p {
+    font-size: 14px;
+  }
+}

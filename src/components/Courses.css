@@ -1,0 +1,31 @@
+.course-details-container {
+  margin: 20px;
+  background-color: #4274a5;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.course-details-container h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.course-details-container p {
+  margin-bottom: 5px;
+}
+
+.course-details-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.course-details-container ul li {
+  margin-bottom: 5px;
+}
+
+.course-details-container ul li strong {
+  font-weight: bold;
+}
